@@ -236,7 +236,7 @@ int main()
         fnPrintVec(listB);
         cout << endl;
         
-        cout << "1. Complement\n2. Union\n3. Intersection\n4. Difference\n5. Symmetric Difference\n\nEnter with a number from 1-5: ";
+        cout << "1. Complement\n2. Union\n3. Intersection\n4. Difference\n5. Symmetric Difference\n6. Quit the program\n\nEnter with a number from 1-6: ";
         cin >> intUsrOpInput;
         cout << endl;
 
@@ -377,7 +377,9 @@ int main()
             //===============A SYMM DIFF B ENDS HERE===============A SYMM DIFF B ENDS HERE===============
             tOrF = fnContinueOrNo();
         }
-
+        else if (intUsrOpInput = 6) {
+            break;
+        }
         //Invalid Input
         else {
             cout << endl << endl;
