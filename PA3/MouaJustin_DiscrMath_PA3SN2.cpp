@@ -1,11 +1,11 @@
 /*
-Program name : MouaJustin_DiscrMath_PrgmPA3SN1.cpp
+Program name : MouaJustin_DiscrMath_PrgmPA3SN2.cpp
 Author       : Justin Moua
 Professor    : Sachin Jain
 Course       : CS 3653 | Discrete Mathematics for Computer Science
-Date         : 31 October 2023
-Description  : Given the positive integers a, b, and m with m > 1, find ab mod m.
-               The value of a, b and m should be taken from the user through keyboard.
+Date         : 4 November 2023
+Description  : Given a positive integer n, determine the Binary, Octal and Hexadecimal equivalent of n.
+               The value of n should be taken from the user through keyboard. 
 
 
 */
