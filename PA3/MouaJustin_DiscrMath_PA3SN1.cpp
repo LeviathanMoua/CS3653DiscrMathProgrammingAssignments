@@ -41,6 +41,7 @@ int main(){
 
         std::cout << "(a^b) % m = (" << intA << "^" << intB << ") % " << intM << " = " << result;
         std::cout << std::endl << std::endl;
+
         //Checks to see if user wants to continue
         //Var to check if user wants to continue
         std::string strUsrInpContinueOrNo;

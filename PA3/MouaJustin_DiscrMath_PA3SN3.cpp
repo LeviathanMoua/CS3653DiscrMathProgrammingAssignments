@@ -63,6 +63,7 @@ int intFnAPow2PowN(int intA, int intN) {
         }
     }
 }
+
 int main()
 {
     int intA;

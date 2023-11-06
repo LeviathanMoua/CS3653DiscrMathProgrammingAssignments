@@ -34,13 +34,17 @@ void fnDecimalToBinary(int intN) {
         //1%2 = 1. 1/2 then becomes 0.
         //Program stops since we have reached 0. Note that we do not
         //Have decimals since we are dealing with integer, not float!
-        vecBinary.push_back(intN % 2); // adds binary value to the back of string 
-        i++; // i gets incremented for the next position in vector 
+
+        // adds binary value to vecBinary
+        vecBinary.push_back(intN % 2); 
+        //Next position in vecBinary so that we can see how large vecBinary is. 
+        i++; 
         intN = intN / 2;
 
     }
 
-    reverse(vecBinary.begin(), vecBinary.end()); // reverses order of vector 
+    //Reverses the vector
+    reverse(vecBinary.begin(), vecBinary.end());
 
     std::string strFinalResult;
 
@@ -59,9 +63,7 @@ void fnDecimalToOctal(int intN) {
     std::vector<int> vecOctal; // list that will hold binary values
 
 
-    int i = 0; // iterator for vector
-
-
+    int i = 0; 
     while (intN != 0)
     {
         //Similar approach with that of octal but instead we deal with base 8.
@@ -71,7 +73,7 @@ void fnDecimalToOctal(int intN) {
 
     }
 
-    reverse(vecOctal.begin(), vecOctal.end()); // reverses order of vector 
+    reverse(vecOctal.begin(), vecOctal.end()); 
 
     for (int i = 0; i < vecOctal.size(); i++) {
         std::cout << vecOctal[i];
@@ -87,20 +89,17 @@ void fnDecimalToHexadecimal(int intN) {
     //==============HEXADECIMAL CONVERSION================
     std::vector<int>vecBinary; // list that will hold binary values
 
-
-    int i = 0; // iterator for vector
-
-
+    int i = 0; 
     while (intN != 0)
     {
         //Similar approach with that of octal but instead we deal with base 8.
-        vecBinary.push_back(intN % 2); // adds binary value to the back of string 
-        i++; // i gets incremented for the next position in vector 
+        vecBinary.push_back(intN % 2); 
+        i++;
         intN = intN / 2;
 
     }
 
-    reverse(vecBinary.begin(), vecBinary.end()); // reverses order of vector 
+    reverse(vecBinary.begin(), vecBinary.end());
 
     std::string temp = "";
 
