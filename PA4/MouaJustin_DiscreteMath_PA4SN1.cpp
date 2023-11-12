@@ -30,16 +30,43 @@ int main()
 
     while (true) {
 
-        //=======================ASK FOR USER INPUT STARTS HERE====================ASK FOR USER INPUT STARTS HERE====================ASK FOR USER INPUT STARTS HERE====================
-        std::cout << "Enter value for N here: ";
-        std::cin >> intN;
-        std::cout << std::endl;
-        std::cout << std::endl;
 
-        std::cout << "Enter value for R here: ";
-        std::cin >> intR;
-        std::cout << std::endl;
-        std::cout << std::endl;
+        //=======================ASK FOR USER INPUT STARTS HERE====================ASK FOR USER INPUT STARTS HERE====================ASK FOR USER INPUT STARTS HERE====================
+        
+        //Asks user to input N
+        while (true) {
+            std::cout << "Enter value for N where N is greater than or equal to 2 here: ";
+            std::cin >> intN;
+            std::cout << std::endl;
+            std::cout << std::endl;
+
+            if (intN < 2) {
+                std::cout << "==============\nInvalid Input!\n==============\n\nPlease enter a value N greater than or equal to 2!";
+                std::cout << std::endl;
+                std::cout << std::endl;
+            }
+            else {
+                break;
+            }
+        }
+        
+        //Asks user to input R
+        while (true) {
+            std::cout << "Enter value for N where N is greater than or equal to 1 here: ";
+            std::cin >> intR;
+            std::cout << std::endl;
+            std::cout << std::endl;
+
+            if (intR < 1) {
+                std::cout << "==============\nInvalid Input!\n==============\n\nPlease enter a value N greater than or equal to 1!";
+                std::cout << std::endl;
+                std::cout << std::endl;
+            }
+            else {
+                break;
+            }
+        }
+
         //=======================ASK FOR USER INPUT ENDS HERE====================ASK FOR USER INPUT ENDS HERE====================ASK FOR USER INPUT ENDS HERE====================
 
         //======================OPERATION STARTS HERE======================OPERATION STARTS HERE======================OPERATION STARTS HERE======================
