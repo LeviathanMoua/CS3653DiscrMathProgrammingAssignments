@@ -52,13 +52,13 @@ int main()
         
         //Asks user to input R
         while (true) {
-            std::cout << "Enter value for N where N is greater than or equal to 1 here: ";
+            std::cout << "Enter value for R where R is greater than or equal to 1 here: ";
             std::cin >> intR;
             std::cout << std::endl;
             std::cout << std::endl;
 
             if (intR < 1) {
-                std::cout << "==============\nInvalid Input!\n==============\n\nPlease enter a value N greater than or equal to 1!";
+                std::cout << "==============\nInvalid Input!\n==============\n\nPlease enter a value R greater than or equal to 1!";
                 std::cout << std::endl;
                 std::cout << std::endl;
             }
