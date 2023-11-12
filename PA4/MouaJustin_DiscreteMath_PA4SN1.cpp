@@ -1,5 +1,5 @@
 /*
-Program name : MouaJustin_DiscrMath_PrgmPA4SN1.cpp
+Program name : MouaJustin_DiscreteMath_PrgmPA4SN1.cpp
 Author       : Justin Moua
 Professor    : Sachin Jain
 Course       : CS 3653 | Discrete Mathematics for Computer Science
