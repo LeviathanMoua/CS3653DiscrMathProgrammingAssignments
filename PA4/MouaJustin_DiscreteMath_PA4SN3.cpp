@@ -30,9 +30,9 @@ void fnTowerOfHanoi(int n, char A, char B, char C)
 		std::cout << "Towers (" << n << ", " << A << ", " << B << ", " << C << ")";
 		std::cout << std::endl;
 
-		//move n-1 disks from a to b using c
+		//C moves n-1 disks is moved from A to B
 		fnTowerOfHanoi(n - 1, A, C, B);
-		//move a disc from a to c using b and display this step performed. Also note that a and c are different in the next called function
+		//B moves a disk from A to C
 		std::cout << "Move a disk from " << A << " to " << C;
 		std::cout << std::endl;
 		std::cout << std::endl;
